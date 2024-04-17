@@ -1,0 +1,226 @@
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 0.711 seconds.
+Prefix dict has been built successfully.
+/home/zhyidi/Graduation_Project/lstm.py:115: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1670525495809/work/torch/csrc/utils/tensor_new.cpp:230.)
+  vectors = torch.Tensor(vectors)
+epoch:1, step:10, loss:0.6887852549552917
+epoch:1, step:20, loss:0.6715748906135559
+epoch:1, step:30, loss:0.6362918615341187
+epoch:1, step:40, loss:0.570823073387146
+epoch:1, step:50, loss:0.4899870455265045
+epoch:1, step:60, loss:0.46006888151168823
+epoch:1, step:70, loss:0.47524094581604004
+epoch:1, step:80, loss:0.4359920620918274
+epoch:1, step:90, loss:0.44683557748794556
+epoch:1, step:100, loss:0.44584888219833374
+              precision    recall  f1-score   support
+
+         0.0       0.68      0.87      0.76       155
+         1.0       0.93      0.82      0.87       345
+
+    accuracy                           0.83       500
+   macro avg       0.81      0.84      0.82       500
+weighted avg       0.86      0.83      0.84       500
+
+准确率: 0.834
+AUC: 0.9178307620383356
+saved model:  ./model/lstm_1.model
+epoch:2, step:10, loss:0.43185004591941833
+epoch:2, step:20, loss:0.38769638538360596
+epoch:2, step:30, loss:0.40676599740982056
+epoch:2, step:40, loss:0.4302709698677063
+epoch:2, step:50, loss:0.3648427128791809
+epoch:2, step:60, loss:0.3970525562763214
+epoch:2, step:70, loss:0.39060115814208984
+epoch:2, step:80, loss:0.39481666684150696
+epoch:2, step:90, loss:0.4108789563179016
+epoch:2, step:100, loss:0.3909744322299957
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.81      0.81       155
+         1.0       0.92      0.91      0.91       345
+
+    accuracy                           0.88       500
+   macro avg       0.86      0.86      0.86       500
+weighted avg       0.88      0.88      0.88       500
+
+准确率: 0.878
+AUC: 0.9340626460963066
+saved model:  ./model/lstm_2.model
+epoch:3, step:10, loss:0.3892306685447693
+epoch:3, step:20, loss:0.3479442000389099
+epoch:3, step:30, loss:0.34253230690956116
+epoch:3, step:40, loss:0.36547619104385376
+epoch:3, step:50, loss:0.35895246267318726
+epoch:3, step:60, loss:0.3640589118003845
+epoch:3, step:70, loss:0.36849361658096313
+epoch:3, step:80, loss:0.35542312264442444
+epoch:3, step:90, loss:0.34702596068382263
+epoch:3, step:100, loss:0.3787456154823303
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.80      0.80       155
+         1.0       0.91      0.91      0.91       345
+
+    accuracy                           0.87       500
+   macro avg       0.85      0.85      0.85       500
+weighted avg       0.87      0.87      0.87       500
+
+准确率: 0.874
+AUC: 0.9372978027115475
+saved model:  ./model/lstm_3.model
+epoch:4, step:10, loss:0.34852415323257446
+epoch:4, step:20, loss:0.32450947165489197
+epoch:4, step:30, loss:0.3214896321296692
+epoch:4, step:40, loss:0.30689045786857605
+epoch:4, step:50, loss:0.35103246569633484
+epoch:4, step:60, loss:0.34113752841949463
+epoch:4, step:70, loss:0.3056632876396179
+epoch:4, step:80, loss:0.34432417154312134
+epoch:4, step:90, loss:0.34335631132125854
+epoch:4, step:100, loss:0.3415660262107849
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.75      0.79       155
+         1.0       0.89      0.92      0.91       345
+
+    accuracy                           0.87       500
+   macro avg       0.86      0.84      0.85       500
+weighted avg       0.87      0.87      0.87       500
+
+准确率: 0.872
+AUC: 0.9386629266012156
+saved model:  ./model/lstm_4.model
+epoch:5, step:10, loss:0.31075629591941833
+epoch:5, step:20, loss:0.29457199573516846
+epoch:5, step:30, loss:0.30332544445991516
+epoch:5, step:40, loss:0.29235491156578064
+epoch:5, step:50, loss:0.29018598794937134
+epoch:5, step:60, loss:0.2737806737422943
+epoch:5, step:70, loss:0.27822190523147583
+epoch:5, step:80, loss:0.28221672773361206
+epoch:5, step:90, loss:0.28559401631355286
+epoch:5, step:100, loss:0.31267595291137695
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.79      0.79       155
+         1.0       0.90      0.91      0.91       345
+
+    accuracy                           0.87       500
+   macro avg       0.85      0.85      0.85       500
+weighted avg       0.87      0.87      0.87       500
+
+准确率: 0.872
+AUC: 0.936998597475456
+saved model:  ./model/lstm_5.model
+epoch:6, step:10, loss:0.2414933145046234
+epoch:6, step:20, loss:0.2694862484931946
+epoch:6, step:30, loss:0.24721941351890564
+epoch:6, step:40, loss:0.22541937232017517
+epoch:6, step:50, loss:0.2676299214363098
+epoch:6, step:60, loss:0.24794825911521912
+epoch:6, step:70, loss:0.25117844343185425
+epoch:6, step:80, loss:0.2953060269355774
+epoch:6, step:90, loss:0.24274055659770966
+epoch:6, step:100, loss:0.2544826865196228
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.90      0.79       155
+         1.0       0.95      0.83      0.88       345
+
+    accuracy                           0.85       500
+   macro avg       0.82      0.86      0.84       500
+weighted avg       0.87      0.85      0.85       500
+
+准确率: 0.85
+AUC: 0.9414492753623188
+saved model:  ./model/lstm_6.model
+epoch:7, step:10, loss:0.22290554642677307
+epoch:7, step:20, loss:0.19347774982452393
+epoch:7, step:30, loss:0.2435850203037262
+epoch:7, step:40, loss:0.2218937873840332
+epoch:7, step:50, loss:0.21512742340564728
+epoch:7, step:60, loss:0.19775550067424774
+epoch:7, step:70, loss:0.198040172457695
+epoch:7, step:80, loss:0.20208163559436798
+epoch:7, step:90, loss:0.20294177532196045
+epoch:7, step:100, loss:0.22798827290534973
+              precision    recall  f1-score   support
+
+         0.0       0.76      0.80      0.78       155
+         1.0       0.91      0.89      0.90       345
+
+    accuracy                           0.86       500
+   macro avg       0.83      0.84      0.84       500
+weighted avg       0.86      0.86      0.86       500
+
+准确率: 0.86
+AUC: 0.9338756428237494
+saved model:  ./model/lstm_7.model
+epoch:8, step:10, loss:0.2020043581724167
+epoch:8, step:20, loss:0.16499438881874084
+epoch:8, step:30, loss:0.1659194678068161
+epoch:8, step:40, loss:0.16915586590766907
+epoch:8, step:50, loss:0.17475242912769318
+epoch:8, step:60, loss:0.17576780915260315
+epoch:8, step:70, loss:0.2125423699617386
+epoch:8, step:80, loss:0.16991785168647766
+epoch:8, step:90, loss:0.18384453654289246
+epoch:8, step:100, loss:0.12816734611988068
+              precision    recall  f1-score   support
+
+         0.0       0.74      0.87      0.80       155
+         1.0       0.94      0.86      0.90       345
+
+    accuracy                           0.86       500
+   macro avg       0.84      0.87      0.85       500
+weighted avg       0.88      0.86      0.87       500
+
+准确率: 0.864
+AUC: 0.9377840112201964
+saved model:  ./model/lstm_8.model
+epoch:9, step:10, loss:0.11937485635280609
+epoch:9, step:20, loss:0.15646269917488098
+epoch:9, step:30, loss:0.12553103268146515
+epoch:9, step:40, loss:0.12815721333026886
+epoch:9, step:50, loss:0.17001892626285553
+epoch:9, step:60, loss:0.13261738419532776
+epoch:9, step:70, loss:0.14855742454528809
+epoch:9, step:80, loss:0.16218088567256927
+epoch:9, step:90, loss:0.16956724226474762
+epoch:9, step:100, loss:0.12591281533241272
+              precision    recall  f1-score   support
+
+         0.0       0.74      0.80      0.77       155
+         1.0       0.91      0.87      0.89       345
+
+    accuracy                           0.85       500
+   macro avg       0.82      0.84      0.83       500
+weighted avg       0.85      0.85      0.85       500
+
+准确率: 0.85
+AUC: 0.9334642356241234
+saved model:  ./model/lstm_9.model
+epoch:10, step:10, loss:0.12996992468833923
+epoch:10, step:20, loss:0.09537889063358307
+epoch:10, step:30, loss:0.10096081346273422
+epoch:10, step:40, loss:0.08878923952579498
+epoch:10, step:50, loss:0.0936337560415268
+epoch:10, step:60, loss:0.08793367445468903
+epoch:10, step:70, loss:0.09934072196483612
+epoch:10, step:80, loss:0.1020677238702774
+epoch:10, step:90, loss:0.09827922284603119
+epoch:10, step:100, loss:0.10767774283885956
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.72      0.73       155
+         1.0       0.88      0.88      0.88       345
+
+    accuracy                           0.83       500
+   macro avg       0.80      0.80      0.80       500
+weighted avg       0.83      0.83      0.83       500
+
+准确率: 0.832
+AUC: 0.9170827489481066
+saved model:  ./model/lstm_10.model

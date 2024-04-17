@@ -1,0 +1,223 @@
+Some weights of the model checkpoint at ./model/chinese_wwm_pytorch were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+epoch:1, step:10, loss:0.6615009307861328
+epoch:1, step:20, loss:0.5551007986068726
+epoch:1, step:30, loss:0.5160593390464783
+epoch:1, step:40, loss:0.46882709860801697
+epoch:1, step:50, loss:0.44975924491882324
+epoch:1, step:60, loss:0.46843910217285156
+epoch:1, step:70, loss:0.465200811624527
+epoch:1, step:80, loss:0.44777074456214905
+epoch:1, step:90, loss:0.42105817794799805
+epoch:1, step:100, loss:0.41916075348854065
+              precision    recall  f1-score   support
+
+           0       0.70      0.85      0.77       155
+           1       0.93      0.84      0.88       345
+
+    accuracy                           0.84       500
+   macro avg       0.81      0.84      0.82       500
+weighted avg       0.86      0.84      0.85       500
+
+准确率: 0.842
+AUC: 0.924450677886863
+saved model:  ./model/bert_lstm_dnn_1.model
+epoch:2, step:10, loss:0.3931577205657959
+epoch:2, step:20, loss:0.38824784755706787
+epoch:2, step:30, loss:0.4052826464176178
+epoch:2, step:40, loss:0.39696669578552246
+epoch:2, step:50, loss:0.40344443917274475
+epoch:2, step:60, loss:0.4019494950771332
+epoch:2, step:70, loss:0.37443116307258606
+epoch:2, step:80, loss:0.37665092945098877
+epoch:2, step:90, loss:0.3638465702533722
+epoch:2, step:100, loss:0.3530980050563812
+              precision    recall  f1-score   support
+
+           0       0.83      0.79      0.81       155
+           1       0.91      0.92      0.92       345
+
+    accuracy                           0.88       500
+   macro avg       0.87      0.86      0.86       500
+weighted avg       0.88      0.88      0.88       500
+
+准确率: 0.884
+AUC: 0.9333894343151006
+saved model:  ./model/bert_lstm_dnn_2.model
+epoch:3, step:10, loss:0.33191704750061035
+epoch:3, step:20, loss:0.3203446567058563
+epoch:3, step:30, loss:0.34696075320243835
+epoch:3, step:40, loss:0.3614337742328644
+epoch:3, step:50, loss:0.3192680776119232
+epoch:3, step:60, loss:0.29647329449653625
+epoch:3, step:70, loss:0.3511848449707031
+epoch:3, step:80, loss:0.3679051995277405
+epoch:3, step:90, loss:0.3614240288734436
+epoch:3, step:100, loss:0.32652547955513
+              precision    recall  f1-score   support
+
+           0       0.66      0.92      0.77       155
+           1       0.96      0.79      0.86       345
+
+    accuracy                           0.83       500
+   macro avg       0.81      0.86      0.82       500
+weighted avg       0.87      0.83      0.84       500
+
+准确率: 0.83
+AUC: 0.9354464703132306
+saved model:  ./model/bert_lstm_dnn_3.model
+epoch:4, step:10, loss:0.28217485547065735
+epoch:4, step:20, loss:0.2724650800228119
+epoch:4, step:30, loss:0.27406415343284607
+epoch:4, step:40, loss:0.247567817568779
+epoch:4, step:50, loss:0.2993931770324707
+epoch:4, step:60, loss:0.24837100505828857
+epoch:4, step:70, loss:0.2557624876499176
+epoch:4, step:80, loss:0.2812293767929077
+epoch:4, step:90, loss:0.2683810591697693
+epoch:4, step:100, loss:0.28317710757255554
+              precision    recall  f1-score   support
+
+           0       0.75      0.88      0.81       155
+           1       0.94      0.87      0.90       345
+
+    accuracy                           0.87       500
+   macro avg       0.84      0.87      0.85       500
+weighted avg       0.88      0.87      0.87       500
+
+准确率: 0.87
+AUC: 0.9343431510051426
+saved model:  ./model/bert_lstm_dnn_4.model
+epoch:5, step:10, loss:0.22655832767486572
+epoch:5, step:20, loss:0.16971056163311005
+epoch:5, step:30, loss:0.16088657081127167
+epoch:5, step:40, loss:0.18984544277191162
+epoch:5, step:50, loss:0.19722144305706024
+epoch:5, step:60, loss:0.17851489782333374
+epoch:5, step:70, loss:0.168627068400383
+epoch:5, step:80, loss:0.1755858212709427
+epoch:5, step:90, loss:0.19046010076999664
+epoch:5, step:100, loss:0.19411484897136688
+              precision    recall  f1-score   support
+
+           0       0.74      0.84      0.79       155
+           1       0.92      0.87      0.90       345
+
+    accuracy                           0.86       500
+   macro avg       0.83      0.85      0.84       500
+weighted avg       0.87      0.86      0.86       500
+
+准确率: 0.86
+AUC: 0.9297428705002337
+saved model:  ./model/bert_lstm_dnn_5.model
+epoch:6, step:10, loss:0.10494484752416611
+epoch:6, step:20, loss:0.11234284937381744
+epoch:6, step:30, loss:0.09254094213247299
+epoch:6, step:40, loss:0.09496407210826874
+epoch:6, step:50, loss:0.11850140243768692
+epoch:6, step:60, loss:0.1075580045580864
+epoch:6, step:70, loss:0.07781456410884857
+epoch:6, step:80, loss:0.10047634690999985
+epoch:6, step:90, loss:0.08462869375944138
+epoch:6, step:100, loss:0.08883365988731384
+              precision    recall  f1-score   support
+
+           0       0.74      0.81      0.77       155
+           1       0.91      0.87      0.89       345
+
+    accuracy                           0.85       500
+   macro avg       0.82      0.84      0.83       500
+weighted avg       0.86      0.85      0.85       500
+
+准确率: 0.852
+AUC: 0.9218700327255728
+saved model:  ./model/bert_lstm_dnn_6.model
+epoch:7, step:10, loss:0.07181376218795776
+epoch:7, step:20, loss:0.042585451155900955
+epoch:7, step:30, loss:0.06367194652557373
+epoch:7, step:40, loss:0.038643546402454376
+epoch:7, step:50, loss:0.049959179013967514
+epoch:7, step:60, loss:0.05893237143754959
+epoch:7, step:70, loss:0.048416849225759506
+epoch:7, step:80, loss:0.07033578306436539
+epoch:7, step:90, loss:0.03786138445138931
+epoch:7, step:100, loss:0.053226765245199203
+              precision    recall  f1-score   support
+
+           0       0.75      0.77      0.76       155
+           1       0.89      0.89      0.89       345
+
+    accuracy                           0.85       500
+   macro avg       0.82      0.83      0.83       500
+weighted avg       0.85      0.85      0.85       500
+
+准确率: 0.85
+AUC: 0.9166900420757365
+saved model:  ./model/bert_lstm_dnn_7.model
+epoch:8, step:10, loss:0.023029394447803497
+epoch:8, step:20, loss:0.04154212772846222
+epoch:8, step:30, loss:0.02850506268441677
+epoch:8, step:40, loss:0.02990138530731201
+epoch:8, step:50, loss:0.03457946702837944
+epoch:8, step:60, loss:0.04974309727549553
+epoch:8, step:70, loss:0.043040040880441666
+epoch:8, step:80, loss:0.03916637971997261
+epoch:8, step:90, loss:0.018321629613637924
+epoch:8, step:100, loss:0.03451692685484886
+              precision    recall  f1-score   support
+
+           0       0.72      0.83      0.77       155
+           1       0.92      0.86      0.88       345
+
+    accuracy                           0.85       500
+   macro avg       0.82      0.84      0.83       500
+weighted avg       0.86      0.85      0.85       500
+
+准确率: 0.846
+AUC: 0.9245254791958859
+saved model:  ./model/bert_lstm_dnn_8.model
+epoch:9, step:10, loss:0.029505809769034386
+epoch:9, step:20, loss:0.009254858829081059
+epoch:9, step:30, loss:0.01642928272485733
+epoch:9, step:40, loss:0.02911018393933773
+epoch:9, step:50, loss:0.025781532749533653
+epoch:9, step:60, loss:0.032059911638498306
+epoch:9, step:70, loss:0.008791486732661724
+epoch:9, step:80, loss:0.026195615530014038
+epoch:9, step:90, loss:0.009484945796430111
+epoch:9, step:100, loss:0.013057771138846874
+              precision    recall  f1-score   support
+
+           0       0.70      0.81      0.75       155
+           1       0.91      0.85      0.88       345
+
+    accuracy                           0.84       500
+   macro avg       0.81      0.83      0.82       500
+weighted avg       0.85      0.84      0.84       500
+
+准确率: 0.836
+AUC: 0.9181860682561945
+saved model:  ./model/bert_lstm_dnn_9.model
+epoch:10, step:10, loss:0.01492075901478529
+epoch:10, step:20, loss:0.01132231391966343
+epoch:10, step:30, loss:0.008211697451770306
+epoch:10, step:40, loss:0.014904721640050411
+epoch:10, step:50, loss:0.011536733247339725
+epoch:10, step:60, loss:0.012219413183629513
+epoch:10, step:70, loss:0.01050230860710144
+epoch:10, step:80, loss:0.009998108260333538
+epoch:10, step:90, loss:0.016040461137890816
+epoch:10, step:100, loss:0.011254646815359592
+              precision    recall  f1-score   support
+
+           0       0.74      0.79      0.76       155
+           1       0.90      0.87      0.89       345
+
+    accuracy                           0.85       500
+   macro avg       0.82      0.83      0.83       500
+weighted avg       0.85      0.85      0.85       500
+
+准确率: 0.848
+AUC: 0.918765778401122
+saved model:  ./model/bert_lstm_dnn_10.model

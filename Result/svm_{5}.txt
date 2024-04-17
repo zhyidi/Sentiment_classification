@@ -1,0 +1,16 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.723 seconds.
+Prefix dict has been built successfully.
+/home/zhyidi/.conda/envs/pytorch/lib/python3.9/site-packages/sklearn/feature_extraction/text.py:409: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['元', '吨', '数', '末'] not in stop_words.
+  warnings.warn(
+              precision    recall  f1-score   support
+
+           0       0.82      0.69      0.75       155
+           1       0.87      0.93      0.90       345
+
+    accuracy                           0.86       500
+   macro avg       0.84      0.81      0.82       500
+weighted avg       0.85      0.86      0.85       500
+
+准确率: 0.856
