@@ -1,2 +1,2 @@
 # Sentiment_classification
-Sentiment classification
+基于深度学习的短文本情感分类算法研究与实现
