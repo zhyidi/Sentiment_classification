@@ -1,1 +1,0 @@
-下载地址见 https://github.com/ymcui/Chinese-BERT-wwm
