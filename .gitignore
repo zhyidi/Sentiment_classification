@@ -3,3 +3,4 @@ model/bert_lstm_dnn_*.model
 model/lstm_*.model
 
 Result/
+visualization/
